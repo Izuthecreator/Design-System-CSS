@@ -1,0 +1,314 @@
+/* Colors - Mode 1 */
+:root {
+    /* Token colors derived from the base color variables */
+
+    --main-screen-bg: var(--main-white);
+    --main-icon-color: var(--primary-600);
+    --main-text-heading: var(--neutral-900);
+    --main-text-body: var(--neutral-800);
+    --main-text-btn: var(--neutral-800);
+    --main-text-disabled: var(--neutral-400);
+    --button-color-primary-btn: var(--primary-500);
+    --button-color-primary-btn-hover: var(--primary-400);
+    --button-color-primary-btn-active: var(--primary-600);
+    --button-color-primary-btn-disabled: var(--primary-100);
+    --button-color-secondary-btn: var(--primary-500);
+    --button-color-secondary-btn-hover: var(--primary-50);
+    --button-color-secondary-btn-active: var(--primary-100);
+    --button-color-primary-btn-disabled-2: var(--primary-100);
+    --button-color-transparent-btn: var(--primary-500);
+    --button-color-transparent-btn-hover: var(--primary-300);
+    --button-color-transparent-btn-active: var(--primary-600);
+    --button-color-transparent-btn-disabled: var(--primary-100);
+    --text-colors-heading-color: var(--neutral-900);
+    --text-colors-body-color: var(--neutral-700);
+
+    /* Base color variables */
+    --main-black: #1C1C1CFF;
+    --main-white: #F9f9f9;
+    --primary-50: #E5F0F0FF;
+    --primary-100: #CCE0E0FF;
+    --primary-200: #99C2C2FF;
+    --primary-300: #66A3A3FF;
+    --primary-400: #338585FF;
+    --primary-500: #006666FF;
+    --primary-600: #025454FF;
+    --primary-700: #044141FF;
+    --primary-800: #062F2FFF;
+    --primary-900: #081D1DFF;
+    --secondary-50: #FAF5EBFF;
+    --secondary-100: #F5EBD6FF;
+    --secondary-200: #EBD6ADFF;
+    --secondary-300: #E0C285FF;
+    --secondary-400: #D6AD5CFF;
+    --secondary-500: #CC9933FF;
+    --secondary-600: #A57D2BFF;
+    --secondary-700: #7F6023FF;
+    --secondary-800: #58441BFF;
+    --secondary-900: #312713FF;
+    --tertiary-50: #FAFAF5FF;
+    --tertiary-100: #F5F5EBFF;
+    --tertiary-200: #EBEBD6FF;
+    --tertiary-300: #E0E0C2FF;
+    --tertiary-400: #D6D6ADFF;
+    --tertiary-500: #CCCC99FF;
+    --tertiary-600: #A5A57DFF;
+    --tertiary-700: #585844FF;
+    --tertiary-800: #585844FF;
+    --tertiary-900: #313127FF;
+    --neutral-50: #F4F4F4FF;
+    --neutral-100: #E8E8E8FF;
+    --neutral-200: #D2D2D2FF;
+    --neutral-300: #BBBBBBFF;
+    --neutral-400: #A4A4A4FF;
+    --neutral-500: #8D8D8DFF;
+    --neutral-600: #777777FF;
+    --neutral-700: #606060FF;
+    --neutral-800: #494949FF;
+    --neutral-900: #333333FF;
+    --success-50: #EAF5EBFF;
+    --success-100: #D5ECD7FF;
+    --success-200: #AAD8AFFF;
+    --success-300: #80C586FF;
+    --success-400: #55B15EFF;
+    --success-500: #2B9E36FF;
+    --success-600: #25812DFF;
+    --success-700: #1E6325FF;
+    --success-800: #18461CFF;
+    --success-900: #112813FF;
+    --warning-50: #FEF6EAFF;
+    --warning-100: #FDEDD6FF;
+    --warning-200: #FADBACFF;
+    --warning-300: #F8C983FF;
+    --warning-400: #F5B759FF;
+    --warning-500: #F3A530FF;
+    --warning-600: #C58629FF;
+    --warning-700: #966721FF;
+    --warning-800: #68481AFF;
+    --warning-900: #392A12FF;
+    --error-50: #FBE8E8FF;
+    --error-100: #F7D1D1FF;
+    --error-200: #F0A4A4FF;
+    --error-300: #E87676FF;
+    --error-400: #E14949FF;
+    --error-500: #D91B1BFF;
+    --error-600: #B01818FF;
+    --error-700: #861414FF;
+    --error-800: #5D1111FF;
+    --error-900: #340E0EFF;
+
+
+    /* Numbers - Mode 1 */
+    /* Base values for number variables. Other variables will draw from these */
+    --base--10: -10px;
+    --base--8: -8px;
+    --base--6: -6px;
+    --base--4: -4px;
+    --base--3: -3px;
+    --base--2: -2px;
+    --base--1: -1px;
+    --base-0-5: -0.5px;
+    --base-0: 0px;
+    --base-1: 1px;
+    --base-2: 2px;
+    --base-4: 4px;
+    --base-6: 6px;
+    --base-8: 8px;
+    --base-10: 10px;
+    --base-12: 12px;
+    --base-14: 14px;
+    --base-16: 16px;
+    --base-18: 18px;
+    --base-20: 20px;
+    --base-22: 22px;
+    --base-24: 24px;
+    --base-26: 26px;
+    --base-28: 28px;
+    --base-30: 30px;
+    --base-32: 32px;
+    --base-34: 34px;
+    --base-36: 36px;
+    --base-38: 38px;
+    --base-40: 40px;
+    --base-42: 42px;
+    --base-44: 44px;
+    --base-46: 46px;
+    --base-48: 48px;
+    --base-50: 50px;
+    --base-52: 52px;
+    --base-54: 54px;
+    --base-56: 56px;
+    --base-58: 58px;
+    --base-60: 60px;
+    --base-62: 62px;
+    --base-64: 64px;
+    --base-66: 66px;
+    --base-68: 68px;
+    --base-70: 70px;
+    --base-72: 72px;
+    --base-80: 80px;
+    --base-90: 90px;
+    --base-100: 100px;
+    --base-120: 120px;
+    --base-150: 150px;
+
+    /* Inner radius - To define the border radius of a div nested inside another div */
+    --inner-radius-xs: var(--base-4);
+    --inner-radius-sm: var(--base-8);
+    --inner-radius-md: var(--base-12);
+    --inner-radius-lg: var(--base-16);
+    --inner-radius-xl: var(--base-24);
+    --inner-radius-xxl: var(--base-32);
+
+    /* Outer radius - To define the border radius of a div which is nesting another div 
+    The variable size for inner radius should match that of Outer radius*/
+    --outer-radius-xs: var(--base-12);
+    --outer-radius-sm: var(--base-16);
+    --outer-radius-md: var(--base-20);
+    --outer-radius-lg: var(--base-32);
+    --outer-radius-xl: var(--base-40);
+    --outer-radius-xxl: var(--base-48);
+
+    /* Radius padding - This defines the spacing between a nested and containing div which both have corner radius.
+    This radius padding is applied to the containing div.  
+     */
+    /* The radius-padding-sm below works for outer and inner radius xs, sm, and md */
+    --radius-padding-sm: var(--base-8);
+
+    /* The radius-padding-lg below works for outer and inner radius lg, xl, and xxl */
+    --radius-padding-lg: var(--base-16);
+
+
+    /* Corner radius - Deffining the border radius of various elements on the DOM, 
+    without taking into account if they are nested or containing nested elements */
+    --corner-radius-xxs: var(--base-4);
+    --corner-radius-xs: var(--base-8);
+    --corner-radius-sm: var(--base-12);
+    --corner-radius-md: var(--base-16);
+    --corner-radius-lg: var(--base-24);
+    --corner-radius-xl: var(--base-32);
+    --corner-radius-xxl: var(--base-40);
+    --corner-radius-xxxl: var(--base-56);
+
+
+    /* Spacing - Defining the spacing between various elements on the DOM, 
+    without taking into account if they are nested or containing nested elements */
+    --spacing-xxxs: var(--base-2);
+    --spacing-xxs: var(--base-4);
+    --spacing-xs: var(--base-8);
+    --spacing-sm: var(--base-12);
+    --spacing-md: var(--base-16);
+    --spacing-lg: var(--base-24);
+    --spacing-xl: var(--base-32);
+    --spacing-xxl: var(--base-40);
+    --spacing-xxxl: var(--base-56);
+
+    /* Padding - Defining the padding of various elements on the DOM, 
+    without taking into account if they are nested or containing nested elements */
+    --padding-xxxs: var(--base-2);
+    --padding-xxs: var(--base-4);
+    --padding-xs: var(--base-8);
+    --padding-sm: var(--base-12);
+    --padding-md: var(--base-16);
+    --padding-lg: var(--base-24);
+    --padding-xl: var(--base-32);
+    --padding-xxl: var(--base-40);
+    --padding-xxxl: var(--base-56);
+
+    /* Button radius - Defining the corner radius of different button sizes
+    This design system works with 3 different buttton sizes */
+    --button-radius-sm: var(--base-8);
+    --button-radius-md: var(--base-12);
+    --button-radius-lg: var(--base-14);
+
+    /* Button height - Defining the height of different button sizes */
+    --button-height-sm: var(--base-36);
+    --button-height-md: var(--base-48);
+    --button-height-lg: var(--base-60);
+
+    /* Button padding - Defining the inline or horizontal padding of different button sizes */
+    --button-padding-sm: var(--base-16);
+    --button-padding-md: var(--base-32);
+    --button-padding-lg: var(--base-48);
+
+    /* Button spacing - Defining the space between elements in a button,
+    example text and icon*/
+    --button-spacing-sm: var(--base-8);
+    --button-spacing-md: var(--base-12);
+    --button-spacing-lg: var(--base-16);
+
+    /* Input Spacing - Defining the space between elements in differenr input field sizes,
+    This uses the same values as that of the button, for cohesiveness and consistency */
+    --input-spacing-sm: var(--button-spacing-sm);
+    --input-spacing-md: var(--button-spacing-md);
+    --input-spacing-lg: var(--button-spacing-lg);
+
+    /* Input radius - Defining the border radius of different input field sizes,
+    This uses the same values as that of the button, for cohesiveness and consistency */
+    --input-radius-sm: var(--button-radius-sm);
+    --input-radius-md: var(--button-radius-md);
+    --input-radius-lg: var(--button-radius-lg);
+
+    /* Input height - Defining the height of different input field sizes,
+    This uses the same values as that of the button, for cohesiveness and consistency */
+    --input-height-sm: var(--button-height-sm);
+    --input-height-md: var(--button-height-md);
+    /* input-height-lg uses a different variable */
+    --input-height-lg: var(--base-150);
+
+     /* Input padding - Defining the padding of different input field sizes,
+    This uses the same values as that of the button, for cohesiveness and consistency */
+    --input-padding-sm: var(--base-8);
+    --input-padding-md: var(--base-12);
+    --input-padding-lg: var(--base-16);
+
+    /* Typography - Mode 1 */
+    /* Font size - Defining the sizes of different text sizes */
+    --font-size-h1: var(--base-72);
+    --font-size-h2: var(--base-60);
+    --font-size-h3: var(--base-48);
+    --font-size-h4: var(--base-40);
+    --font-size-h5: var(--base-32);
+    --font-size-h6: var(--base-24);
+    --font-size-body-one: var(--base-20);
+    --font-size-body-two: var(--base-16);
+    --font-size-caption-one: var(--base-14);
+    --font-size-caption-two: var(--base-12);
+
+    /* Line height - Defining the line height of different text sizes */
+    --line-height-xxl: var(--base-120);
+    --line-height-xl: var(--base-100);
+    --line-height-lg: var(--base-80);
+    --line-height-md: var(--base-60);
+    --line-height-sm: var(--base-40);
+    --line-height-xs: var(--base-30);
+    --line-height-xxs: var(--base-24);
+    --line-height-xxs-2: var(--base-20);
+    --line-height-xxs-3: var(--base-18);
+
+    /* Kerning - Defining the letter spacing of different text sizes */
+    --kerning-xl: var(--base-0);
+    --kerning-lg: var(--base-0-5);
+    --kerning-md: var(--base--1);
+    --kerning-sm: var(--base--2);
+    --kerning-xs: var(--base--3);
+    --kerning-xxs: var(--base--4);
+
+    /* Font style - Deifining the font family being used by a particular text element */
+    --font-style-heading: Raleway;
+    --font-style-body: Lato;
+
+    /* Font weight - Defining the font weight used by different text elements */
+    --font-weight-thin: 100;
+    --font-weight-extralight: 200t;
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semiBold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+    --font-weight-black: 900
+}
+
+
+
