@@ -314,6 +314,7 @@ h6 {
 
 .btn-pry:hover {
     background-color: var(--button-color-primary-btn-hover, #066);
+    cursor: pointer;
 }
 
 .btn-pry:active {
@@ -334,6 +335,7 @@ h6 {
 
 .btn-sec:hover {
     background-color: var(--button-color-secondary-btn-hover);
+    cursor: pointer;
 }
 
 .btn-sec:active {
@@ -350,5 +352,10 @@ h6 {
 }
 
 .btn-trans:hover {
+    cursor: pointer;
     color: var(--button-color-transparent-btn-hover);
+}
+
+.btn-trans:active {
+    color: var(--button-color-transparent-btn-active);
 }
